@@ -1,0 +1,27 @@
+{
+  "mode": "manual",
+  "investor_proof_mode": false,
+  "risk": {
+    "max_risk_percent_per_trade": 1.0,
+    "daily_loss_cap_percent": 2.0
+  },
+  "webhook_secret": "REPLACE_ME",
+  "oanda": {
+    "use_practice": true,
+    "account_id": "REPLACE",
+    "api_token": "REPLACE"
+  },
+  "notion": {
+    "api_key": "REPLACE",
+    "database_ids": {
+      "wtp": "REPLACE_WTP",
+      "dtp": "REPLACE_DTP",
+      "trades": "REPLACE_TRADES"
+    }
+  },
+  "telegram": {
+    "bot_token": "REPLACE",
+    "vip_chat_id": "REPLACE",
+    "control_chat_id": "REPLACE"
+  }
+}
