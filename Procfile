@@ -1,1 +1,1 @@
-web: python -m gunicorn main:app --bind 0.0.0.0:$PORT
+web: python -m gunicorn Orionprimeos-telegrambot.main:app --bind 0.0.0.0:$PORT
